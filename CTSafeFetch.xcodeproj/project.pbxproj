@@ -13,6 +13,7 @@
 		4A3FBF84242DAA7A005459E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3FBF82242DAA7A005459E8 /* Main.storyboard */; };
 		4A3FBF86242DAA7B005459E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3FBF85242DAA7B005459E8 /* Assets.xcassets */; };
 		4A3FBF89242DAA7B005459E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3FBF87242DAA7B005459E8 /* LaunchScreen.storyboard */; };
+		4A3FBF92242DAA97005459E8 /* CTSafeFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FBF91242DAA97005459E8 /* CTSafeFetch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4A3FBF85242DAA7B005459E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A3FBF88242DAA7B005459E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A3FBF8A242DAA7B005459E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A3FBF91242DAA97005459E8 /* CTSafeFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTSafeFetch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		4A3FBF7B242DAA7A005459E8 /* CTSafeFetch */ = {
 			isa = PBXGroup;
 			children = (
+				4A3FBF90242DAA8E005459E8 /* CTSafeFetch */,
 				4A3FBF7C242DAA7A005459E8 /* AppDelegate.swift */,
 				4A3FBF7E242DAA7A005459E8 /* SceneDelegate.swift */,
 				4A3FBF80242DAA7A005459E8 /* ViewController.swift */,
@@ -63,6 +66,14 @@
 				4A3FBF85242DAA7B005459E8 /* Assets.xcassets */,
 				4A3FBF87242DAA7B005459E8 /* LaunchScreen.storyboard */,
 				4A3FBF8A242DAA7B005459E8 /* Info.plist */,
+			);
+			path = CTSafeFetch;
+			sourceTree = "<group>";
+		};
+		4A3FBF90242DAA8E005459E8 /* CTSafeFetch */ = {
+			isa = PBXGroup;
+			children = (
+				4A3FBF91242DAA97005459E8 /* CTSafeFetch.swift */,
 			);
 			path = CTSafeFetch;
 			sourceTree = "<group>";
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A3FBF92242DAA97005459E8 /* CTSafeFetch.swift in Sources */,
 				4A3FBF81242DAA7A005459E8 /* ViewController.swift in Sources */,
 				4A3FBF7D242DAA7A005459E8 /* AppDelegate.swift in Sources */,
 				4A3FBF7F242DAA7A005459E8 /* SceneDelegate.swift in Sources */,

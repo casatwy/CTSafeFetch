@@ -1,0 +1,6 @@
+CTSafeFetch.xcworkspace/
+Podfile.lock
+Pods/
+CTSafeFetch.xcodeproj/project.xcworkspace/xcuserdata/
+.DS_Store
+*.swp
